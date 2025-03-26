@@ -1,6 +1,6 @@
  Naamo Sami, Maik Kraemer
 
-![[Pasted image 20250227120331.png]]
+![[../Pictures/20250227120331.png]]
 
 
 # Inhalt:
@@ -29,7 +29,7 @@
 
 # Soll vorgaben
 
-![[Pasted image 20250226101747.png]]
+![[../Pictures/20250226101747.png]]
 
 ***Verwenden Sie folgende Geräte:***
 - Switch: 2960 

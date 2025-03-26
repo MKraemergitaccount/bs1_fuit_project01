@@ -1,1 +1,0 @@
-# bs1_fuit_project01
