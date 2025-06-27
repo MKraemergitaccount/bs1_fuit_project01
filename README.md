@@ -1,6 +1,6 @@
  Naamo Sami, Maik Kraemer
 
-![[../Pictures/20250227120331.png]]
+![[./Pictures/20250227120331.png]]
 
 
 # Inhalt:
@@ -184,9 +184,9 @@ R1(config-if)#      ip nat outside
 
 | Bild/Skizze                         | allg. Konfiguration | Beschreibung Arbeitsweise                                                                                                                                                                     | Nachteile                                                                                | Vorteile                                                                                                     | Art               |
 | ----------------------------------- | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ----------------- |
-| ![[../Pictures/20250326134432.png]] |                     | eine dedizierte Router-Schnittstelle mit einem VLAN verknüpft                                                                                                                                 | jedes VLAN ein Router- und Switch-Port mit der entsprechenden Verkabelung benötigt wird. | gute Kompatibilität mit alter Hardware jedes VLAN kann die volle Bandbreite des physikalischen Ports nutzen. | Legacy Routing    |
-| ![[../Pictures/20250326134533.png]] |                     | SVI (Switch Virtual Interface = VLAN dem eine IP-Adresse zugewiesen wurde). Vermittlung der Frames zwischen VLANs geschieht innerhalb Gerätes                                                 | Der höhere finanzielle Aufwand                                                           | die Vermittlung erfolgt mit geringer Latenz                                                                  | Layer 3 Switch    |
-| ![[../Pictures/20250326134552.png]] |                     | Auf dem Router wird, anstatt für jedes VLAN eine dedizierte Netzwerkschnittstelle zu verwenden, eine physische Schnittstelle in mehrere virtuellen Schnittstellen (Subinterfaces) unterteilt. | VLANs müssen sich die Bandbreite physikalischer Schnittstelle teilen.                    | Geräteschnittstellen und Verbindungskabel werden gespart.                                                    | Router on a Stick |
+| ![[./Pictures/20250326134432.png]] |                     | eine dedizierte Router-Schnittstelle mit einem VLAN verknüpft                                                                                                                                 | jedes VLAN ein Router- und Switch-Port mit der entsprechenden Verkabelung benötigt wird. | gute Kompatibilität mit alter Hardware jedes VLAN kann die volle Bandbreite des physikalischen Ports nutzen. | Legacy Routing    |
+| ![[./Pictures/20250326134533.png]] |                     | SVI (Switch Virtual Interface = VLAN dem eine IP-Adresse zugewiesen wurde). Vermittlung der Frames zwischen VLANs geschieht innerhalb Gerätes                                                 | Der höhere finanzielle Aufwand                                                           | die Vermittlung erfolgt mit geringer Latenz                                                                  | Layer 3 Switch    |
+| ![[./Pictures/20250326134552.png]] |                     | Auf dem Router wird, anstatt für jedes VLAN eine dedizierte Netzwerkschnittstelle zu verwenden, eine physische Schnittstelle in mehrere virtuellen Schnittstellen (Subinterfaces) unterteilt. | VLANs müssen sich die Bandbreite physikalischer Schnittstelle teilen.                    | Geräteschnittstellen und Verbindungskabel werden gespart.                                                    | Router on a Stick |
 
 
 
